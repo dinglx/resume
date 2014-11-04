@@ -1,0 +1,75 @@
+\documentclass[11pt,a4paper,sans]{moderncv}   % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv 主题
+\moderncvstyle{classic}                        % 选项参数是 ‘casual’, ‘classic’, ‘oldstyle’ 和 ’banking’
+\moderncvcolor{blue}                          % 选项参数是 ‘blue’ (默认)、‘orange’、‘green’、‘red’、‘purple’ 和 ‘grey’
+%\nopagenumbers{}                             % 消除注释以取消自动页码生成功能
+
+% 字符编码
+\usepackage[utf8]{inputenc}                   % 替换你正在使用的编码
+\usepackage{CJKutf8}
+
+% 调整页面
+\usepackage[scale=0.89]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}           % 如果你希望改变日期栏的宽度
+
+% 个人信息
+\firstname{\qquad丁林枭}
+\familyname{}
+\title{}                     % 可选项、如不需要可删除本行
+\address{}{}            % 可选项、如不需要可删除本行
+\phone[mobile]{+86 13581731367}              % 可选项、如不需要可删除本行
+\phone[mobile]{+86 18510721929}
+\email{dlx1986@gmail.com}                    % 可选项、如不需要可删除本行
+%\homepage{dinglx.github.io}
+%\social[github]{dinglx}                  % 可选项、如不需要可删除本行
+
+%----------------------------------------------------------------------------------
+%            内容
+%----------------------------------------------------------------------------------
+
+\begin{document}
+\begin{CJK*}{UTF8}{gbsn}                       % 详情参阅CJK文件包
+\maketitle
+
+
+\section{教育背景}
+\cventry{2008--2011}{硕士(保研)}{中国地质大学(北京)}{计算机应用方向}{}{}
+\cventry{2004--2008}{本科}{中国地质大学(北京)}{计算机科学与技术专业}{}{}
+
+\renewcommand{\baselinestretch}{1.2}
+\section{专业技能}
+\cvitem{-}{熟练掌握PHP语言, 熟悉Yii等PHP开发框架, 两年多偏前端的开发经验, 主要涉及HTML5 / CSS / Javascript等, 熟悉LAMP网络架构}
+\cvitem{-}{一年C/C++编程经验, 熟悉多线程及网络编程等, 熟悉STL}
+\cvitem{-}{熟练掌握Python编程语言, 编写过任务执行引擎, 涉及到网络通信及多线程编程等}
+\cvitem{-}{多年来以Linux系统作为开发环境, 熟悉Linux系统编程}
+
+\section{项目经历}
+
+\cventry{2013 - 2014}
+{持续集成系统(CISE)}
+{Ruby/Python/PHP}
+{}{\textbf{技术质量部-云测中心-测试技术部-持续集成}}
+{专利，机器总量调配}
+\vspace*{0.2\baselineskip}
+
+\cventry{2012 - 2013}
+{弹性云虚拟机管理系统(Cloud)}
+{PHP}
+{}{\textbf{一淘-广告技术-测试-测试工具}}
+{接口管理机器，多机器池子设计，背景及意义价值，与toast集成}
+\vspace*{0.2\baselineskip}
+
+\cventry{2010 - 2012}
+{自动化任务平台(TOAST)}
+{C++/PHP/Python}
+{}{\textbf{淘宝-技术研发部-广告技术-测试-自动化}}
+{任务调度，串并行设计}
+\vspace*{0.2\baselineskip}
+
+
+\section{自我评价}
+
+%\renewcommand{\baselinestretch}{1.0}
+\clearpage\end{CJK*}
+\end{document}
